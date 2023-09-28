@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+a:hover{
+          color: #ffffff;
+          background-color: #000000;
+          /* box-shadow: 5px 5px #c0c0c0; */
+      }
+      .btn :hover{
+          color: #ffffff;
+          background-color: #000000;
+           box-shadow: 5px 5px #c0c0c0; 
+      }
+.container{
+          max-width: 1114px;
+          margin: 0px auto;
+          padding: 0px 20px;
+      }
+      
+    
+      .btn a{
+          padding: 8px 15px;
+          border-radius: 30px;
+          color: #ffffff;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+      }
+      
+      .btn.trans a{
+          background: rgba(255, 255, 255,0.3);
+      }
+      
+      .btn.primary a{
+          background-color: #231A36;
+      }
+      
+      .section-heading{
+          max-width: 600px;
+          margin: 0px auto;
+          text-align: center;
+          margin-bottom: 50px;
+      }
+      
+      .section-heading h2{
+          margin-bottom: 25px;
+          color: #231A36;
+      }
+      .section-heading p{
+          color: #426666;
+      }
+      h1{
+          font-size: 92px;
+          color: #eeefed;
+      }
+      
+      h2{
+          font-size: 40px;
+      }
+      header {
+          padding: 15px 0px;
+      }
+      
+      .header-wrapper{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .header-wrapper nav ul{
+          display: flex;
+          gap: 40px;
+      }
+      
+      .header-wrapper nav ul li a {
+          color: #ffffff;
+      }
+      @media screen and (max-width: 654px) {
+          .header-wrapper ul li{
+              display: none;
+          }
+        .banner-wrapper h1{
+         
+           font-size:70px;
+           font-weight: 300;
+          
+        }
+         }
+      .banner{
+          color:#ffffff;
+          text-align: center;
+          padding: 125px 0px;
+      }
+      
+      .header-banner{
+          background:url("./image/yannis-h-uaPaEM7MiQQ-unsplash.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          backdrop-filter: blur(25px);
+          background-position: center;
+      }
+      
+      .banner h1{
+          margin: 0px 0px 25px 0px;
+      }
+      
+      .banner h1 span,.banner p span{
+          display: block;
+      }
+      
+      .banner .btn a{
+          margin-top: 50px;
+          /* display: inline-block; */
+      }
